@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+  font-family: 'Fahkwang';
+}
+
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding: 30px;
+}
+
+h1 {
+  color: #edf0f1;
+  margin-right: auto;
+  
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+
+
+body {
+  background-color: black;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+}
+
+
+
+.nav_links li {
+  padding: 10px;
+  display: inline-block;
+  
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0sc;
+  
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+  
+}
+
+
+button {
+padding: 9px 25px;
+background-color: rgba(0,136,169,1);
+border: none;
+border-radius: 50px;
+transition: all 0.3s ease 0sc;
+
+}
+
+button:hover{
+  background-color: rgba(0,136,169,0.5);
+
+
+}
+
+.text{
+
+  color:rgba(0,136,169,1);
+  font-size: 30px;
+  
+  padding: 80px;
+}
+
+.subi{
+  
+  background-color: none;
+  float: right;
+}
+
+h2{
+  color:rgba(0,136,169,1);
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+
+.certifications{
+  color: #edf0f1;
+  margin-left: 100px;
+}
+
+
+.education{
+
+  color: #edf0f1;
+}
+
+h4 .certifications{
+  color: #edf0f1;
+}

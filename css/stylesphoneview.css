@@ -1,0 +1,394 @@
+* {
+  box-sizing: border-box;
+  font-family: Fahkwang;
+}
+
+#port {
+  margin-top: 0;
+}
+
+#name {
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.headerlinks {
+  display: none;
+}
+
+hr {
+  height: 0px;
+  background-color: black;
+}
+
+/* body{
+    color:  #3F227E
+    background: rgb(128,132,105);
+} */
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.clicktoplay {
+  margin-left: 35%;
+}
+
+.apps{
+
+margin: 0;    
+height: 200px;
+
+}
+.appdescription {
+  font-size: 18px;
+}
+.avatar {
+  display: none;
+}
+
+.main,
+p,
+h2,
+.lenguages,
+.tools,
+.links {
+  text-align: center;
+  padding: 0px;
+}
+
+.iconweb {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lenguages,
+.tools,
+p {
+  font-size: 25px;
+}
+
+footer {
+  padding-bottom: 60px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0sc;
+  font-size: 18px;
+  list-style: none;
+  padding: 0px;
+  line-height: 0px;
+}
+
+.links {
+  padding: 7.5px;
+}
+
+#I {
+  display: none;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+}
+#hmenu {
+  justify-content: end;
+  height: 30px;
+}
+
+#tagmenu {
+  margin-top: 21.44px;
+  justify-content: flex-end;
+}
+
+#build {
+  margin: 50px;
+}
+
+.menupage button {
+  width: cover;
+  padding: 30px;
+}
+
+.menulinks li {
+  text-align: center;
+  padding: 20px;
+}
+
+.navlinks ul {
+  margin-top: 100px;
+}
+
+.contacts img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contacts {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.contacts a {
+  color: black;
+}
+
+.emailcontact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.githubimg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lilinkedin {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: none;
+}
+
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+
+@media screen and (min-width: 375px) {
+}
+
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+@media screen and (min-width: 770px) {
+  body {
+    background-color: black;
+  }
+
+  .iconweb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #name {
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  #build {
+    margin: 0px;
+    font-size: 30px;
+    color: black;
+  }
+
+  #port {
+    margin-top: 0px;
+    color: white;
+    text-align: right;
+    margin-bottom: 80px;
+  }
+
+  #arrow {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .avatar {
+    height: 150px;
+  }
+
+  .me {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .skills {
+    background-color: black;
+    height: auto;
+  }
+
+  .uno {
+    background-color: white;
+    height: auto;
+  }
+
+  .logo {
+    height: 150px;
+    justify-items: left;
+  }
+
+  .dos {
+    text-align: center;
+    padding-top: 10px;
+    height: auto;
+    color: black;
+  }
+
+  h1 {
+    color: white;
+    padding: 80px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Fahkwang";
+    font-style: oblique;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .tools {
+    padding-bottom: 50px;
+  }
+
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0sc;
+    font-size: 18px;
+    list-style: none;
+  }
+
+  .bio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: black;
+    padding-bottom: 50px;
+  }
+
+  button:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+  }
+
+  li {
+    padding: 30px;
+    text-align: center;
+    display: inline;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0px;
+  }
+
+  main {
+    color: black;
+    height: auto;
+    background-color: white;
+  }
+
+  footer {
+    margin-top: 50px;
+    background: black;
+    display: block;
+    font-size: 50px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .iconweb {
+    height: 100px;
+  }
+
+  h2 {
+    padding: 20px;
+
+    font-size: 30px;
+  }
+
+  .contacts {
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+  }
+
+  .contacts a {
+    color: black;
+    justify-content: space-around;
+  }
+
+  .contacts img {
+    width: 160px;
+    height: auto;
+  }
+
+  .quizzapp img {
+    width: 600px;
+  }
+
+  .booksmark img {
+    width: 600px;
+    height: auto;
+  }
+
+  .contacts div {
+    margin: 60px;
+  }
+
+  .headerlinks {
+    display: inline-block;
+  }
+
+  .emailcontact {
+    font-size: 40px;
+  }
+
+  .githubimg {
+    font-size: 40px;
+  }
+
+  .lilinkedin {
+    font-size: 40px;
+  }
+
+  .contacts {
+    margin: 80px;
+  }
+}
+/* , and end it with  @media screen and (min-width: 650px) */

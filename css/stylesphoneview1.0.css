@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: Fahkwang;
+}
+
+h3 {
+  color: white;
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Fahkwang";
+  font-style: oblique;
+  font-weight: 600;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin-left: 20px;
+  text-align: center;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  width: 125px;
+  height: 50px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0sc;
+  font-size: 18px;
+  list-style: none;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.5);
+}
+
+li {
+  padding: 30px;
+  text-align: center;
+}
+
+.nav_links {
+  padding: 0;
+  margin: 0px;
+}
+
+@media screen and (min-width: 650px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+}

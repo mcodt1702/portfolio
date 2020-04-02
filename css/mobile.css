@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Fahkwang;
+    
+  }
+
+.header{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+
+    height: 15px;
+    background-color: rgb(140,83,160);
+}
+
+body{
+
+    background: rgb(237,234,77);
+}
+
+ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+/* li {
+    padding-bottom: 20px;
+} */
+.avatar {
+
+display: none; 
+}
+
+.main, p, h2, .lenguages, .tools, .links {
+    
+    text-align: center;
+    padding: 0px;
+}
+
+.iconweb{
+    display: none;
+}
+
+footer{
+    padding-bottom: 60px;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(140,83,160);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0sc;
+    font-size: 18px;
+    list-style: none;
+    padding:0px;
+    
+    
+}
+
+.links {
+
+padding: 7.5px;
+
+}
+    
+

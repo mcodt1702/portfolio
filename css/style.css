@@ -1,0 +1,133 @@
+
+
+* {
+  box-sizing: border-box;
+  background-color: black;
+  color: #0088a9;
+  font-size: xx-large;
+}
+
+h1 {
+text-align: left;
+color: white;
+padding: 50px;
+font-size: 50px;
+}
+
+
+
+header {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding: 30px;
+}
+
+h3 {
+  color: #edf0f1;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+body {
+  background-image: url(/htmlll/images/verticalclouds.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.nav_links{
+
+  padding: 0;
+  margin: 0;
+
+}
+
+ul {
+
+  list-style: none;
+}
+.nav_links li{
+  padding-top: 10px;
+  display: flexbox;
+  
+  padding: 10;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+ 
+
+}
+.emailcontact{
+  width: 200px;
+  height: auto;
+
+}
+.lilinkedin{
+
+  padding: 50px;
+}
+
+.githubimg{
+  width: 200px;
+  height: auto;
+}
+
+.linkedin{
+  width: 200px;
+  height: auto;
+}
+
+
+.nav_links li a{
+  transition: all 0.3s ease 0sc;
+}
+
+.nav_links li a:hover{
+  color: #0088a9; 
+}
+
+button {
+display: flexbox;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+color: #edf0f1;
+width: 125px;
+height: 50px;
+background-color: rgba(0,136,169,1);
+border: none;
+border-radius: 50px;
+transition: all 0.3s ease 0sc;
+font-size: 18px;
+list-style: none;
+
+
+}
+
+button:hover{
+  background-color: rgba(0,136,169,0.5);
+}
+
+.contacts li{
+  padding: 50px;
+}
+
+.contacts img{
+
+  padding:40px;
+}
+
+.quizzapp img{
+
+  width: 700px; 
+  height: auto;
+}
