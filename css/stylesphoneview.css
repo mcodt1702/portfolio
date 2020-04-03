@@ -16,30 +16,31 @@
   display: none;
 }
 
-hr {
-  height: 0px;
-  background-color: black;
-}
-
-/* body{
-    color:  #3F227E
-    background: rgb(128,132,105);
-} */
 
 ul {
   padding: 0px;
   list-style-type: none;
 }
 
-.clicktoplay {
-  margin-left: 35%;
+
+.quizzapp{
+  text-align: center;
+  
 }
+.quizzapp img{
+align-content: center;
+display: inline-block;
+width: 90%;
 
-.apps{
+}
+.booksmark img{
+  align-content: center;
+  display: inline-block;
+  width: 90%;
 
-margin: 0;    
-height: 200px;
-
+}
+.booksmark{
+  text-align: center;
 }
 .appdescription {
   font-size: 18px;
@@ -53,7 +54,7 @@ p,
 h2,
 .lenguages,
 .tools,
-.links {
+.links, .tools2 {
   text-align: center;
   padding: 0px;
 }
@@ -391,8 +392,11 @@ footer {
     height: auto;
   }
 
-  .quizzapp img {
+  .quizzapp img{
+    display: inline-block;
+    margin: 0;    
     width: 600px;
+    text-align: center;
   }
 
   .booksmark img {
