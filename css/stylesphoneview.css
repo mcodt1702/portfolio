@@ -72,7 +72,8 @@ p {
 }
 
 footer {
-  padding-bottom: 60px;
+  
+  background-color: black;
 }
 
 .button {
@@ -341,7 +342,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     padding: 0;
-    margin: 0px;
+    margin-top: 20px;
   }
 
   main {
@@ -351,7 +352,7 @@ footer {
   }
 
   footer {
-    margin-top: 50px;
+    padding-top: 30px;
     background: black;
     display: block;
     font-size: 50px;
