@@ -157,6 +157,7 @@ margin: auto;
 
 
 .contacts img {
+  
   width: 100px;
   
   margin-bottom: 10px;
@@ -389,7 +390,7 @@ footer {
 
   .contacts img {
     width: 160px;
-    height: auto;
+    
   }
 
   .quizzapp img{
