@@ -16,30 +16,45 @@
   display: none;
 }
 
-
 ul {
   padding: 0px;
   list-style-type: none;
 }
 
-
-.quizzapp{
+.quizzapp {
   text-align: center;
-  
 }
-.quizzapp img{
-align-content: center;
-display: inline-block;
-width: 90%;
-
-}
-.booksmark img{
+.quizzapp img {
   align-content: center;
   display: inline-block;
   width: 90%;
-
 }
-.booksmark{
+.getameal img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+
+.everRecipes img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+.bookapp img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+
+.booksmark img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+.booksmark,
+.getameal,
+.everRecipes,
+.bookapp {
   text-align: center;
 }
 .appdescription {
@@ -54,7 +69,8 @@ p,
 h2,
 .lenguages,
 .tools,
-.links, .tools2 {
+.links,
+.tools2 {
   text-align: center;
   padding: 0px;
 }
@@ -67,13 +83,13 @@ h2,
 }
 
 .lenguages,
-.tools, .tools2,
+.tools,
+.tools2,
 p {
   font-size: 25px;
 }
 
 footer {
-  
   background-color: black;
 }
 
@@ -92,8 +108,6 @@ footer {
   padding: 0px;
   line-height: 0px;
 }
-
-
 
 #I {
   display: none;
@@ -117,7 +131,7 @@ header {
   margin: 50px;
 }
 
-.buttonmenu{
+.buttonmenu {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: white;
@@ -127,15 +141,12 @@ header {
   border-radius: 50px;
   transition: all 0.3s ease 0sc;
   font-size: 30px;
-  
+
   padding: 30px;
   line-height: 25px;
   margin-top: 50px;
   display: inline-block;
   text-align: center;
- 
-  
-  
 }
 
 .menulinks {
@@ -145,22 +156,16 @@ header {
   margin-top: 30%;
 }
 
-.menupage{
-color: white;
-text-decoration: none;
-margin: auto;
-
-
-
-
+.menupage {
+  color: white;
+  text-decoration: none;
+  margin: auto;
 }
 
-
 .contacts img {
-  
   width: 100px;
   height: 100px;
-  
+
   margin-bottom: 10px;
   padding: 15px;
 }
@@ -295,7 +300,8 @@ footer {
     margin-left: 20px;
     text-align: center;
   }
-  .tools, .tools2 {
+  .tools,
+  .tools2 {
     padding-bottom: 50px;
   }
 
@@ -311,17 +317,13 @@ footer {
     font-size: 18px;
     list-style: none;
     padding: 15px;
-    
   }
 
-  .nounder{
+  .nounder {
     color: white;
     text-decoration: none;
   }
 
-
-
-   
   .bio {
     margin-left: auto;
     margin-right: auto;
@@ -392,12 +394,11 @@ footer {
   .contacts img {
     width: 160px;
     height: 160px;
-    
   }
 
-  .quizzapp img{
+  .quizzapp img {
     display: inline-block;
-    margin: 0;    
+    margin: 0;
     width: 600px;
     text-align: center;
   }
@@ -407,11 +408,24 @@ footer {
     height: auto;
   }
 
-.everRecipes img{
-  width: 600px;
-  height: auto;
-}
+  .everRecipes img {
+    width: 600px;
+    height: auto;
+  }
 
+  .getameal img {
+    display: inline-block;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+  }
+
+  .bookapp img {
+    display: inline-block;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+  }
   .contacts div {
     margin: 60px;
   }
