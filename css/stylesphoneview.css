@@ -89,10 +89,6 @@ p {
   font-size: 25px;
 }
 
-footer {
-  background-color: black;
-}
-
 .button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -358,10 +354,19 @@ footer {
   }
 
   footer {
-    padding-top: 30px;
+    padding-top: 10px;
     background: black;
     display: block;
     font-size: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    height: 5hv;
+  }
+
+  footer links {
+    color: white;
   }
 
   .links {
@@ -449,6 +454,11 @@ footer {
 
   .contacts {
     margin: 80px;
+  }
+
+  .sectionName {
+    font-size: xx-large;
+    text-decoration: underline;
   }
 }
 /* , and end it with  @media screen and (min-width: 650px) */
